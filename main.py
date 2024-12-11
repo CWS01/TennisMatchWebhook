@@ -11,7 +11,7 @@ REQUESTS_URI = "http://api.sportradar.us/tennis/trial/v3/en/schedules/live/summa
 DAILY_SUMMARIES = f"https://api.sportradar.com/tennis/trial/v3/en/schedules/{DATE}/summaries.json?api_key=9pvkxsnk69acdcgbgeubd8c8"
 
 headers = {
-    "X-Originating-IP": "69.204.56.248"
+    
 }
 
 # Three requests are made to ensure that every match in a given day is returned from the API as they API only allows for
