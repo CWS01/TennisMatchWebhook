@@ -6,7 +6,7 @@ from time import sleep
 TODAY = datetime.now()
 DATE = TODAY.date()
 
-API_KEY = "9pvkxsnk69acdcgbgeubd8c8"
+API_KEY = ""
 REQUESTS_URI = "http://api.sportradar.us/tennis/trial/v3/en/schedules/live/summaries.json?api_key=9pvkxsnk69acdcgbgeubd8c8"
 DAILY_SUMMARIES = f"https://api.sportradar.com/tennis/trial/v3/en/schedules/{DATE}/summaries.json?api_key=9pvkxsnk69acdcgbgeubd8c8"
 
